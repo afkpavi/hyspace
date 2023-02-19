@@ -1,0 +1,31 @@
+# GET http://127.0.0.1:8000/auth/update 
+
+
+
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{
+    "email": "abc@d.com",
+    "password": "4444"
+}
+
+
+# POST http://127.0.0.1:8000/auth/new
+# Content-Type: application/json
+
+# {
+#     "email": "abc@d.com",
+#     "password": "123",
+#     "full_name": "Test"
+# }
+
+
+# PATCH http://127.0.0.1:8000/auth/update
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjc2ODg3Mzk5LCJpYXQiOjE2NzY4MDA5OTksImp0aSI6IjUwMWEyOGUyZWI1ZTRmY2Q4ZjBjZTliNTkxYTQ3NGUxIiwidXNlcl9pZCI6IjI5NDgyNWU3LTg2MjktNDYxMS1hZmI2LWI3Yjk2MGJmMmI2MSJ9.EFhzyeMS-Ad5scjod1O62E-fuHLaMQI4ZcOAcnkiGB0
+# Content-Type: application/json
+
+# {
+#     "email": "abc@d.com",
+#     "password": "4444"
+# }
